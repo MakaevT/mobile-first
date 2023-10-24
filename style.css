@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 50px;
+    height: 50px;
+}
+
+.reg-form h1{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 4%;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-left: 4%;
+}
+
+.imput-form{
+   width: 100%;
+    margin: 15px 20px;
+    
+}
+
+.imput-form input{
+    max-width: 140%;
+    padding: 13px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    border-radius: 7px;
+    border-color: lightgray;
+    border: 2px solid;
+    color: black;
+    margin-bottom: 13px;
+}
+
+.reg-button{
+    margin-left: 3%;
+    max-width: 134%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: blue;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.footer-text{
+    max-width: 100%;
+    color: lightgray;
+    margin-top: 24px;
+    text-align: center;
+    text-align: top;
+    font-family: 'Roboto';
+}
+
+.already-have-account{
+    max-width: 100%;
+    margin-top: 24px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.giga-block{
+    display: flex;
+}
+
+.left-block{
+    box-shadow: 2px 2px 15px gray;
+    max-width: 100%;
+    height: 992px;
+}
+
+.left-img{
+    margin-top: 340px;
+    max-width: 100%;
+}
+
+.left-circle{
+    margin-top: 40px;
+    margin-left: 56px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.left-block h1{
+    font-family: 'Roboto';
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.reg-form{
+    padding-left: 100px;
+    margin-top: 140px;
+}
+
+.right-block{
+    margin-top: 40px;
+    width: 20%;
+}
+
+
+.reg-form{
+    width: 60%;
+}
+
+@media screen and (max-width: 1159px) { 
+    .right-block{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 945px){
+    .left-block{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1165px) {
+    .already-have-account{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .reg-form{
+        margin-top: 0px;
+        padding-left: 60px;
+    }
+}
+
+
+@media screen and (min-width: 944px) {
+    .logo{
+        display: none;
+    }
+}
+
